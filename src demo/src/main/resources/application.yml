@@ -1,0 +1,14 @@
+spring:  
+  jpa:  
+    hibernate:  
+      ddl-auto: update 
+    showsql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect  
+  datasource:  
+    url: "jdbc:postgresql://localhost:5432/postgres"  
+    username: ashishprodapt
+    password: ashishprodapt
+ 
+jwt:
+  private.key: classpath:app.key
+  public.key: classpath:app.pub	
